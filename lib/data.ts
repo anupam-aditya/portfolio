@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import game from "@/public/game.png";
+import zeromile from "@/public/zeromile.png";
+import shopstore from "@/public/shopstore.png";
 
 export const links = [
 	{
@@ -62,7 +62,7 @@ export const experiencesData = [
 		title: "Grad Commerce AI Services",
 		location: "Hyderabad, Telangana",
 		description:
-			"As a Full Stack Developer at GradCommerce AI Services, I played a pivotal role in developing core modules for the mark-tech platform, seamlessly integrating backend and frontend functionalities. From crafting login, authentication, and registration processes to implementing drag-and-drop filter selection and dashboarding with Role-Based Access Control (RBAC), I ensured a user-friendly and feature-rich experience.\nMy contributions extended to creating the backend schema and APIs, establishing a seamless connection with Google Cloud Platform's BigQuery Tables and Storage Buckets. Leveraging GCP, I engineered a robust publish-subscribe (pub-sub) architecture that refined the data retrieval process and heightened the precision of ad analysis conducted by our machine learning model.\nEnsuring a smooth deployment process, I successfully deployed both the front-end and back-end using Vercel, demonstrating proficiency in optimizing the platform's performance. Throughout this journey, technologies such as ReactJS, Python, Flask, and GCP were the cornerstones of my development toolkit, showcasing my versatility and commitment to utilizing cutting-edge technologies in crafting innovative solutions. Joining GradCommerce AI Services as a Full Stack Developer, I contributed to the evolution of an advanced mark-tech platform, and I am excited to continue driving impactful solutions in dynamic startup environments.",
+			"As a Full Stack Developer at GradCommerce AI Services, I play a pivotal role in developing core modules for the mark-tech platform, seamlessly integrating backend and frontend functionalities. From crafting login, authentication, and registration processes to implementing drag-and-drop filter selection and dashboarding with Role-Based Access Control (RBAC), I ensure a user-friendly and feature-rich experience.\nMy contributions extend to creating the backend schema and APIs, establishing a seamless connection with Google Cloud Platform's BigQuery Tables and Storage Buckets. Leveraging GCP, I have developed a robust publish-subscribe (pub-sub) architecture that refines the data retrieval process and increases the precision of ad analysis conducted by our machine learning model.\nEnsuring a smooth deployment process, I successfully deployed both the front-end and back-end using Vercel, demonstrating proficiency in optimizing the platform's performance. Throughout this journey, technologies such as ReactJS, Python, Flask, and GCP have been the cornerstones of my development toolkit, showcasing my versatility and commitment to utilizing cutting-edge technologies in crafting innovative solutions. Joining GradCommerce AI Services as a Full Stack Developer, I have contributed to the evolution of an advanced mark-tech platform, and I am excited to continue driving impactful solutions in dynamic startup environments.",
 		icon: React.createElement(FaReact),
 		date: "August 2023 - Present",
 	},
@@ -70,25 +70,28 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: "CorpComment",
+		title: "ShopStore",
 		description:
-			"I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-		tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-		imageUrl: corpcommentImg,
+			"An e-commerce to website, with major being optimization of dom nodes.",
+		tags: ["React", "Javascript"],
+		imageUrl: shopstore,
+		repoLink: "https://github.com/anupam-aditya/ShopStore",
 	},
 	{
-		title: "rmtDev",
-		description:
-			"Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-		tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-		imageUrl: rmtdevImg,
+		title: "ZeroMile",
+		description: "A resturant review website.",
+		tags: ["EJS", "Javascript", "Bootstrap", "NodeJS", "Express", "MongoDB"],
+		imageUrl: zeromile,
+		repoLink: "https://github.com/anupam-aditya/Zero-Mile",
 	},
 	{
-		title: "Word Analytics",
+		title: "Online Game",
 		description:
-			"A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-		tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-		imageUrl: wordanalyticsImg,
+			"An Online game which is a modified version of the rock, paper scissor.",
+		tags: ["React", "Javascript"],
+		imageUrl: game,
+		repoLink:
+			"https://github.com/anupam-aditya/Rock-Paper-Scissor-Lizard-Spock",
 	},
 ] as const;
 
